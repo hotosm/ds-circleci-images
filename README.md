@@ -1,6 +1,9 @@
 # Docker Images for CircleCi Tests
 
 [![CircleCI](https://circleci.com/gh/developmentseed/ds-circleci-images.svg?style=svg)](https://circleci.com/gh/developmentseed/ds-circleci-images)
+[![docker-hub](https://img.shields.io/badge/docker-hub-green.svg)](https://hub.docker.com/r/developmentseed/circleci/)
+
+Docker hub repository: https://hub.docker.com/r/developmentseed/circleci/
 
 ## Images
 
