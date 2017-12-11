@@ -8,6 +8,8 @@ Docker hub repository: https://hub.docker.com/r/developmentseed/circleci/
 ## Images
 
 - [node8.4-python2.7](images/node8.4-python2.7) (includes aws cli)
+- [node8.9-azure-cli](images/node8.9-azure-cli) (includes azure cli)
+- [nodeCarbon-python3.4](images/nodeCarbon-python3.4)
 
 ### Build & Deploy
 
