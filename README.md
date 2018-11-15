@@ -7,7 +7,7 @@ Docker hub repository: https://hub.docker.com/r/developmentseed/circleci/
 
 ## Images
 
-- [node8.4-python2.7](images/node8.4-python2.7) (includes aws cli)
+- [node9.0-python2.7](images/node9.0-python2.7) (includes aws cli)
 
 ### Build & Deploy
 

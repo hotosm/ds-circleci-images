@@ -12,8 +12,8 @@ jobs:
       - run: |
           docker login -u $DOCKER_USER -p $DOCKER_PASS
 
-          docker build -t developmentseed/circleci:node8.4-python2.7 - < images/node8.4-python2.7
-          docker push developmentseed/circleci:node8.4-python2.7
+          docker build -t developmentseed/circleci:node9.0-python2.7 - < images/node9.0-python2.7
+          docker push developmentseed/circleci:node9.0-python2.7
 
-          docker build -t developmentseed/circleci:node8.9-azure-cli - < images/node8.9-azure-cli
-          docker push developmentseed/circleci:node8.9-azure-cli
+          docker build -t developmentseed/circleci:node9.0-azure-cli - < images/node9.0-azure-cli
+          docker push developmentseed/circleci:node9.0-azure-cli
