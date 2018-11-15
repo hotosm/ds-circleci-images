@@ -12,8 +12,8 @@ jobs:
       - run: |
           docker login -u $DOCKER_USER -p $DOCKER_PASS
 
-          docker build -t willemarcel/circleci:node9.0-python2.7 - < images/node9.0-python2.7
-          docker push willemarcel/circleci:node9.0-python2.7
+          docker build -t hotosm/circleci:node9.10-python2.7 - < images/node9.10-python2.7
+          docker push hotosm/circleci:node9.0-python2.7
 
-          docker build -t willemarcel/circleci:node9.0-azure-cli - < images/node9.0-azure-cli
-          docker push willemarcel/circleci:node9.0-azure-cli
+          docker build -t hotosm/circleci:node9.10-azure-cli - < images/node9.10-azure-cli
+          docker push hotosm/circleci:node9.0-azure-cli
